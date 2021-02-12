@@ -1,0 +1,43 @@
+/* house colors: #f8f1f1, #a3d2ca, #5EAAA8, #db6400 */
+
+body {
+    background-color: #f8f1f1;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top-container, .bottom-container {
+    
+    background-color: #5EAAA8;
+    height: 9rem;
+    color: whitesmoke;
+    padding: 2rem;
+}
+h1, p:first-of-type {
+     text-align: center;
+}
+.middle-container {
+    position: relative;
+    display: flex;
+    background-color: #f8f1f1;
+    height: 60vh;
+}
+.middle-container > img {
+    position: sticky;
+    display: flex;
+    height: 60%;
+    width: auto;
+    margin: 0 auto;
+    align-items: baseline;
+    margin-top: 17.2rem;
+}
+h1 {
+    margin-top: 2rem;
+    font-family: kewl-script, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
