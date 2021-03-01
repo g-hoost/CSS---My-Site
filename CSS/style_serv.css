@@ -59,7 +59,7 @@ ul li a {
 .top-container {
     position: relative;
     background-color: #5EAAA8;
-    height: 40rem;
+    height: 20rem;
     color: whitesmoke;
     padding-top: 2rem;
 }
@@ -151,24 +151,7 @@ ul li a {
     width: 40vw;
     margin: 0 auto;
 }
-.contact-me {
-    background-color: #5EAAA8;
-    color: whitesmoke;
-    padding-top: 2rem;
-    line-height: .5;
-}
-.contact-me h4,
-.contact-me h2,
-.contact-me h3 {
-    color: whitesmoke;
-}
-.contact-me p {
-    color: whitesmoke;
-    font-size: 1.2rem;
-}
-.contact-me p:last-of-type {
-    padding-bottom: 2rem;
-}
+
 
 button {
     background: #db6400;
@@ -209,3 +192,30 @@ button:hover {
     border-radius: 20px;
     text-decoration: none;
  }
+
+ .datenschutz,
+ .datenschutz h3,
+ .datenschutz p {
+     color: darkgray;
+ }
+.datenschutz p {
+    font-size: 1rem;
+}
+.contact-me {
+    background-color: #5EAAA8;
+    color: whitesmoke;
+    padding-top: 2rem;
+    line-height: .5;
+}
+.contact-me h4,
+.contact-me h2,
+.contact-me h3 {
+    color: whitesmoke;
+}
+.contact-me p {
+    color: whitesmoke;
+    font-size: 1.2rem;
+}
+.contact-me p:last-of-type {
+    padding-bottom: 2rem;
+}
