@@ -30,7 +30,6 @@ h3 {
     font-weight: 400;
 }
 p {
-    font-size: 1.6rem;
     color: #db6400;
 }
 hr {
@@ -55,6 +54,8 @@ ul li a {
     font-size: 1.2rem;
 }
 /* Container */
+
+/* Top-Container */
 
 .top-container {
     position: relative;
@@ -103,15 +104,17 @@ ul li a {
      text-align: center;
      width: 50%;
      margin: 0 auto;
-     line-height: 2;
+     line-height: 1.4;
 }
-.profile > p {
-    font-size: 1.8rem;
-}
+
+/* Middle-Container */
+
 .middle-container {
     position: relative;
     background-color: #f8f1f1;
-
+}
+.middle-container p {
+    font-size: 1.6rem;
 }
 .skills {
     position: relative;
