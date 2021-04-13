@@ -219,3 +219,8 @@ button:hover {
 .contact-me p:last-of-type {
     padding-bottom: 2rem;
 }
+
+.rabbit_closeup {
+   width: 8rem;
+   height: auto;
+}

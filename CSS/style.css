@@ -196,7 +196,7 @@ button {
     display: inline-block;
     cursor: pointer;
     text-align: center;
-    margin-bottom: 2rem;
+
  }
  
 button:hover {
@@ -211,4 +211,14 @@ button:hover {
     -moz-border-radius: 20px;
     border-radius: 20px;
     text-decoration: none;
+ }
+ /* Portfolio */
+
+ .accordion {
+     width: 5rem;
+ }
+
+ .rabbit_closeup {
+    width: 3rem;
+    height: auto;
  }
