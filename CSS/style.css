@@ -30,6 +30,7 @@ h3 {
     font-weight: 400;
 }
 p {
+    font-size: 1.6rem;
     color: #db6400;
 }
 hr {
@@ -55,12 +56,10 @@ ul li a {
 }
 /* Container */
 
-/* Top-Container */
-
 .top-container {
     position: relative;
     background-color: #5EAAA8;
-    height: 40rem;
+    height: 20rem;
     color: whitesmoke;
     padding-top: 2rem;
 }
@@ -104,17 +103,17 @@ ul li a {
      text-align: center;
      width: 50%;
      margin: 0 auto;
-     line-height: 1.4;
+     line-height: 2;
 }
-
-/* Middle-Container */
-
+.profile > p {
+    font-size: 1.8rem;
+}
 .middle-container {
     position: relative;
     background-color: #f8f1f1;
 }
-.middle-container p {
-    font-size: 1.6rem;
+.bottom-container {
+    margin-top: 1rem;
 }
 .skills {
     position: relative;
@@ -154,24 +153,7 @@ ul li a {
     width: 40vw;
     margin: 0 auto;
 }
-.contact-me {
-    background-color: #5EAAA8;
-    color: whitesmoke;
-    padding-top: 2rem;
-    line-height: .5;
-}
-.contact-me h4,
-.contact-me h2,
-.contact-me h3 {
-    color: whitesmoke;
-}
-.contact-me p {
-    color: whitesmoke;
-    font-size: 1.2rem;
-}
-.contact-me p:last-of-type {
-    padding-bottom: 2rem;
-}
+
 
 button {
     background: #db6400;
@@ -196,7 +178,7 @@ button {
     display: inline-block;
     cursor: pointer;
     text-align: center;
-
+    margin-bottom: 2rem;
  }
  
 button:hover {
@@ -212,13 +194,35 @@ button:hover {
     border-radius: 20px;
     text-decoration: none;
  }
- /* Portfolio */
 
- .accordion {
-     width: 5rem;
+ .datenschutz,
+ .datenschutz h3,
+ .datenschutz p {
+     color: darkgray;
  }
+.datenschutz p {
+    font-size: 1rem;
+}
+.contact-me {
+    background-color: #5EAAA8;
+    color: whitesmoke;
+    padding-top: 2rem;
+    line-height: .5;
+}
+.contact-me h4,
+.contact-me h2,
+.contact-me h3 {
+    color: whitesmoke;
+}
+.contact-me p {
+    color: whitesmoke;
+    font-size: 1.2rem;
+}
+.contact-me p:last-of-type {
+    padding-bottom: 2rem;
+}
 
- .rabbit_closeup {
-    width: 3rem;
-    height: auto;
- }
+.rabbit_closeup {
+   width: 8rem;
+   height: auto;
+}
